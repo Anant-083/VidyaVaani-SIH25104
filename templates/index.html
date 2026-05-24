@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VidyaVaani - Education Assistant</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎓 VidyaVaani</h1>
+            <p>Your Multilingual Education Assistant</p>
+        </div>
+
+        <div class="chat-box" id="chatBox">
+            <div class="message bot-message">
+                नमस्ते! Hello! আমি VidyaVaani — your education guide. Ask me anything about admissions, exams, scholarships or colleges in any language!
+            </div>
+        </div>
+
+        <div class="input-area">
+            <input 
+                type="text" 
+                id="userInput" 
+                placeholder="Type in any language... / किसी भी भाषा में लिखें..."
+                autocomplete="off"
+            />
+            <button id="sendBtn" onclick="sendMessage()">Send</button>
+        </div>
+
+        <div class="lang-indicator" id="langIndicator"></div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+  </html>
