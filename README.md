@@ -9,41 +9,12 @@
 
 
 ![Python](https://img.shields.io/badge/Python-3.11-yellow?style=for-the-badge&logo=python)
-
-
-
-
 ![Flask](https://img.shields.io/badge/Flask-3.0-black?style=for-the-badge&logo=flask)
-
-
-
-
 ![Groq](https://img.shields.io/badge/Groq-LLaMA_3.3_70B-orange?style=for-the-badge)
-
-
-
-
 ![Languages](https://img.shields.io/badge/Languages-55+-blue?style=for-the-badge)
-
-
-
-
-
 ![SIH](https://img.shields.io/badge/SIH25104-Smart_Education-green?style=for-the-badge)
-
-
-
-
 ![Rajasthan](https://img.shields.io/badge/Govt._of-Rajasthan-darkblue?style=for-the-badge)
-
-
-
-
 ![Deployed](https://img.shields.io/badge/Deployed-Render-purple?style=for-the-badge&logo=render)
-
-
-
-
 ![License](https://img.shields.io/badge/License-MIT-red?style=for-the-badge)
 
 
@@ -203,9 +174,7 @@ Env Variable  → GROQ_API_KEY = your_key
 B.Tech CSE (AI & ML) | Brainware University
 
 [
-
 ![GitHub](https://img.shields.io/badge/GitHub-Anant--083-black?style=for-the-badge&logo=github)
-
 ](https://github.com/Anant-083)
 
 </div>
