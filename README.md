@@ -1,4 +1,10 @@
-# 🎓 VidyaVaani — Language Agnostic Education Chatbot
+# <div align="center">🎓 VidyaVaani</div>
+
+<div align="center">
+
+### AI-Powered Language Agnostic Education Chatbot for India
+
+<br/>
 
 
 
@@ -22,7 +28,13 @@
 
 
 
-![SIH](https://img.shields.io/badge/SIH-2025-green?style=for-the-badge)
+
+![SIH](https://img.shields.io/badge/SIH25104-Smart_Education-green?style=for-the-badge)
+
+
+
+
+![Rajasthan](https://img.shields.io/badge/Govt._of-Rajasthan-darkblue?style=for-the-badge)
 
 
 
@@ -36,107 +48,80 @@
 
 
 
+<br/>
+
+### 🔗 [Live Demo → vidyavaani-sih25104.onrender.com](https://vidyavaani-sih25104.onrender.com)
+
+<br/>
+
+> *"Breaking language barriers in education — one conversation at a time."*
+
+</div>
+
 ---
 
-## 🏛️ Problem Statement Details
+## 🏛️ Problem Statement
+
+<div align="center">
 
 | Field | Details |
-|---|---|
-| **Problem Statement ID** | SIH25104 |
-| **Title** | Language Agnostic Chatbot |
-| **Organization** | Government of Rajasthan |
-| **Theme** | Smart Education |
-| **Category** | Software |
-| **Hackathon** | Smart India Hackathon 2025 |
-| **Official Portal** | [sih.gov.in](https://www.sih.gov.in) |
+|:---|:---|
+| 🆔 **Problem Statement ID** | SIH25104 |
+| 📋 **Title** | Language Agnostic Chatbot |
+| 🏢 **Organization** | Government of Rajasthan |
+| 🎯 **Theme** | Smart Education |
+| 💻 **Category** | Software |
+| 🏆 **Hackathon** | Smart India Hackathon 2025 |
+| 🌐 **Official Portal** | [sih.gov.in](https://www.sih.gov.in) |
+| 📊 **Competing Ideas** | 0 (First to solve) |
+
+</div>
 
 ---
 
-## 🌐 Live Demo
+## 💡 The Problem
 
-🔗 **[https://vidyavaani-sih25104.onrender.com](https://vidyavaani-sih25104.onrender.com)**
+Millions of Indian students from rural and semi-urban areas speak Hindi, Bengali, Tamil, Telugu, Malayalam and other regional languages. Existing education chatbots only work in English — leaving crores of students without guidance on admissions, scholarships and careers.
 
----
-
-## 📌 Problem Statement
-
-The Government of Rajasthan identified a critical gap — millions of Indian students seeking education guidance are unable to access helpful information because existing chatbots only work in English. Students from rural and semi-urban areas who speak Hindi, Bengali, Tamil, Telugu, Malayalam, and other regional languages are left without support.
-
-VidyaVaani solves this by automatically detecting and responding in the user's own language — no language selection needed.
+**VidyaVaani solves this — it automatically detects and replies in the user's own language. No selection. No switching. Just type.**
 
 ---
 
 ## ✨ Features
 
-- 🌍 55 Language Support — Hindi, Bengali, Tamil, Telugu, Malayalam, Marathi, Gujarati, Kannada, Punjabi, Urdu and 45 more
-- 🤖 Auto Language Detection — powered by langdetect (Google's language detection algorithm)
-- 🧠 Context Memory — remembers last 5 exchanges for natural follow-up conversations
-- ⚡ Blazing Fast — Groq API responds in under 1 second
-- 🎓 Education Focused — answers only education related queries
-- 🔄 Language Switching — user can switch languages mid-conversation
-- 📱 Mobile Friendly — works on all screen sizes
-- 🛡️ Error Handling — graceful fallbacks for all failure cases
+| Feature | Description |
+|:---|:---|
+| 🌍 **55 Languages** | All major Indian + international languages supported |
+| 🤖 **Auto Detection** | Powered by Google's langdetect algorithm |
+| 🧠 **Context Memory** | Remembers last 5 exchanges for natural conversation |
+| ⚡ **Blazing Fast** | Groq API responds in under 1 second |
+| 🎓 **Education Focused** | Admissions, exams, scholarships, colleges, careers |
+| 🔄 **Mid-Chat Switching** | Switch languages anytime in same conversation |
+| 📱 **Mobile Friendly** | Works perfectly on all screen sizes |
+| 🛡️ **Error Handling** | Graceful fallbacks for all failure cases |
 
 ---
 
-## 🆚 How VidyaVaani is Different
+## 🆚 Why VidyaVaani Wins
 
 | Feature | Other Chatbots | VidyaVaani |
-|---|---|---|
-| Language Support | English only | 55 languages |
-| Language Selection | Manual dropdown | Automatic detection |
-| AI Model | Rule-based / hardcoded | LLaMA 3.3 70B via Groq |
-| Response Speed | Slow | Under 1 second |
-| Context Memory | None | Last 5 exchanges |
-| Education Focus | Generic | Domain specific |
-| Deployment | Local only | Live on Render |
-
----
-
-## 🛠️ Tech Stack
-
-- Backend — Python 3.11 + Flask
-- AI Model — LLaMA 3.3 70B Versatile via Groq API
-- NLP — langdetect (Google's language detection)
-- Deployment — Render with gunicorn
-- Frontend — Jinja2 Templates + HTML/CSS
-
----
-
-## 📁 File Structure
-
-- app.py — Flask app + Groq API + langdetect logic
-- requirements.txt — Python dependencies
-- .gitignore — protects .env from GitHub
-- templates/index.html — Chat UI
-- static/style.css — Styling
-- static/script.js — Send on Enter key
-
----
-
-## ⚙️ Installation & Setup
-
-1. Clone the repo
-git clone https://github.com/Anant-083/VidyaVaani-SIH25104
-cd VidyaVaani-SIH25104
-
-2. Install dependencies
-pip install -r requirements.txt
-
-3. Create .env file
-GROQ_API_KEY=your_groq_api_key_here
-
-4. Run the app
-python app.py
-
-5. Open browser at http://127.0.0.1:5000
+|:---|:---:|:---:|
+| Language Support | English only ❌ | 55 Languages ✅ |
+| Language Selection | Manual dropdown ❌ | Fully Automatic ✅ |
+| AI Model | Hardcoded rules ❌ | LLaMA 3.3 70B ✅ |
+| Response Speed | 3-5 seconds ❌ | Under 1 second ✅ |
+| Context Memory | None ❌ | Last 5 exchanges ✅ |
+| Education Focus | Generic ❌ | Domain Specific ✅ |
+| Live Deployment | Local only ❌ | Render.com ✅ |
 
 ---
 
 ## 🌍 Supported Indian Languages
 
+<div align="center">
+
 | Language | Code | Script |
-|---|---|---|
+|:---:|:---:|:---:|
 | Hindi | hi | देवनागरी |
 | Bengali | bn | বাংলা |
 | Tamil | ta | தமிழ் |
@@ -148,32 +133,89 @@ python app.py
 | Punjabi | pa | ਪੰਜਾਬੀ |
 | Urdu | ur | اردو |
 
+</div>
+
 ---
 
-## 🚀 Deployment on Render
+## 🛠️ Tech Stack
 
-| Field | Value |
-|---|---|
-| Environment | Python 3 |
-| Build Command | pip install -r requirements.txt |
-| Start Command | gunicorn app:app |
-| Environment Variable | GROQ_API_KEY |
+<div align="center">
+
+| Layer | Technology |
+|:---:|:---:|
+| Backend | Python 3.11 + Flask |
+| AI Model | LLaMA 3.3 70B via Groq API |
+| Language Detection | langdetect (Google) |
+| Frontend | Jinja2 + HTML + CSS |
+| Deployment | Render + Gunicorn |
+
+</div>
+
+---
+
+## 📁 File Structure
+
+```
+VidyaVaani-SIH25104/
+│
+├── app.py                  ← Core Flask app + Groq + langdetect
+├── requirements.txt        ← Python dependencies
+├── .gitignore              ← Keeps .env secret
+│
+├── templates/
+│   └── index.html          ← Chat UI
+│
+└── static/
+    ├── style.css           ← Styling
+    └── script.js           ← Enter key handler
+```
+
+---
+
+## ⚙️ Local Setup
+
+```bash
+git clone https://github.com/Anant-083/VidyaVaani-SIH25104
+cd VidyaVaani-SIH25104
+pip install -r requirements.txt
+echo "GROQ_API_KEY=your_key_here" > .env
+python app.py
+```
+
+---
+
+## 🚀 Render Deployment
+
+```
+Environment   → Python 3
+Build Command → pip install -r requirements.txt
+Start Command → gunicorn app:app
+Env Variable  → GROQ_API_KEY = your_key
+```
 
 ---
 
 ## 👨‍💻 Developer
 
-- Name: Anant
-- GitHub: https://github.com/Anant-083
-- Institution: Brainware University
-- Branch: B.Tech CSE (AI & ML)
+<div align="center">
+
+**Anant**
+B.Tech CSE (AI & ML) | Brainware University
+
+[
+
+![GitHub](https://img.shields.io/badge/GitHub-Anant--083-black?style=for-the-badge&logo=github)
+
+](https://github.com/Anant-083)
+
+</div>
 
 ---
 
-## 📄 License
+<div align="center">
 
-This project is licensed under the MIT License.
+Built with ❤️ for **Smart India Hackathon 2025**
 
----
+**SIH25104 | Government of Rajasthan | Smart Education**
 
-Built with ❤️ for Smart India Hackathon 2025 | SIH25104 | Government of Rajasthan
+</div>
