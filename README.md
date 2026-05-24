@@ -1,4 +1,3 @@
-```markdown
 # 🎓 VidyaVaani — Language Agnostic Education Chatbot
 
 
@@ -178,4 +177,3 @@ This project is licensed under the MIT License.
 ---
 
 Built with ❤️ for Smart India Hackathon 2025 | SIH25104 | Government of Rajasthan
-```
