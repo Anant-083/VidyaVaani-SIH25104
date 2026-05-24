@@ -183,7 +183,7 @@ B.Tech CSE (AI & ML) | Brainware University
 
 <div align="center">
 
-Built with ❤️ for **Smart India Hackathon 2025**
+Built with ❤️
 
 **SIH25104 | Government of Rajasthan | Smart Education**
 
