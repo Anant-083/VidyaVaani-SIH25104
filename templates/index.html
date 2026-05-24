@@ -3,35 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VidyaVaani - Education Assistant</title>
+    <title>VidyaVaani — Multilingual Education Assistant</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <div class="header">
-            <h1>🎓 VidyaVaani</h1>
-            <p>Your Multilingual Education Assistant</p>
-        </div>
+    <div class="app">
 
-        <div class="chat-box" id="chatBox">
-            <div class="message bot-message">
-                नमस्ते! Hello! আমি VidyaVaani — your education guide. Ask me anything about admissions, exams, scholarships or colleges in any language!
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div class="sidebar-logo">
+                <span class="logo-icon">🎓</span>
+                <span class="logo-text">VidyaVaani</span>
+            </div>
+            <div class="sidebar-info">
+                <p class="sidebar-label">Problem Statement</p>
+                <p class="sidebar-value">SIH25104</p>
+            </div>
+            <div class="sidebar-info">
+                <p class="sidebar-label">Organization</p>
+                <p class="sidebar-value">Govt. of Rajasthan</p>
+            </div>
+            <div class="sidebar-info">
+                <p class="sidebar-label">Languages</p>
+                <p class="sidebar-value">55+ Supported</p>
+            </div>
+            <div class="sidebar-info">
+                <p class="sidebar-label">Theme</p>
+                <p class="sidebar-value">Smart Education</p>
+            </div>
+            <div class="sidebar-langs">
+                <p class="sidebar-label">Try in</p>
+                <div class="lang-chips">
+                    <span class="chip">हिंदी</span>
+                    <span class="chip">বাংলা</span>
+                    <span class="chip">தமிழ்</span>
+                    <span class="chip">తెలుగు</span>
+                    <span class="chip">മലയാളം</span>
+                    <span class="chip">English</span>
+                </div>
+            </div>
+            <div class="sidebar-footer">
+                <p>Built for SIH 2025</p>
+                <p>by <a href="https://github.com/Anant-083" target="_blank">Anant-083</a></p>
             </div>
         </div>
 
-        <div class="input-area">
-            <input 
-                type="text" 
-                id="userInput" 
-                placeholder="Type in any language... / किसी भी भाषा में लिखें..."
-                autocomplete="off"
-            />
-            <button id="sendBtn" onclick="sendMessage()">Send</button>
+        <!-- Main Chat Area -->
+        <div class="main">
+
+            <!-- Header -->
+            <div class="header">
+                <div class="header-left">
+                    <div class="avatar-bot">🎓</div>
+                    <div>
+                        <h1>VidyaVaani</h1>
+                        <span class="status"><span class="dot"></span> Online — Ready to help</span>
+                    </div>
+                </div>
+                <div class="header-right">
+                    <span class="badge-sih">SIH25104</span>
+                </div>
+            </div>
+
+            <!-- Chat Box -->
+            <div class="chat-box" id="chatBox">
+                <div class="message bot">
+                    <div class="avatar-sm">🎓</div>
+                    <div class="bubble bot-bubble">
+                        नमस्ते! Hello! আমি VidyaVaani — your multilingual education guide.<br/>
+                        Ask me anything about <strong>admissions, exams, scholarships or colleges</strong> in any language!
+                    </div>
+                </div>
+            </div>
+
+            <!-- Language Detected Bar -->
+            <div class="lang-bar" id="langBar">
+                <span id="langIndicator"></span>
+            </div>
+
+            <!-- Input Area -->
+            <div class="input-area">
+                <input
+                    type="text"
+                    id="userInput"
+                    placeholder="Type in any language... हिंदी, বাংলা, English, தமிழ்..."
+                    autocomplete="off"
+                />
+                <button id="sendBtn" onclick="sendMessage()">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                </button>
+            </div>
+
         </div>
-
-        <div class="lang-indicator" id="langIndicator"></div>
     </div>
-
     <script src="{{ url_for('static', filename='script.js') }}"></script>
 </body>
-  </html>
+</html>
